@@ -1,0 +1,1099 @@
+/*
+font-family: 'Manrope', sans-serif;
+font-family: 'Titillium Web', sans-serif;
+*/
+
+body{
+    color: #16bcff!important;
+    background-size: cover;
+    background-attachment: fixed;
+    overflow-x: hidden;
+    font-family: 'Manrope', sans-serif;
+    background-color: #fff !important;
+
+}
+
+
+
+a {
+	cursor:pointer !important;
+	text-decoration:none !important;
+    color:#000;
+}
+a:hover{
+	cursor:pointer !important;
+	text-decoration:none !important;
+    color:#16bcff;
+}
+body ul{
+	padding:0px;
+	margin:0px;
+    list-style-type: none;
+}
+body li{
+    list-style-type: none;
+} 
+
+body h1,body h2,body h3,body h4,body h5,body h6,body p{
+    padding: 0px;
+    margin: 0px;
+}
+/*****====SCROLL PART START====******/
+::-webkit-scrollbar {
+    width: 6px;
+    height: 6px;
+  }
+::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 2px #18110a;
+    border-radius: 5px;
+}
+::-webkit-scrollbar-thumb {
+    background: linear-gradient(to top, #10c7ff , #289bff , #4662ff );
+    border-radius: 15px;
+}
+/*****====SCROLL PART END====******/
+.navbar-toggler {
+    line-height: 1;
+    background: linear-gradient(to right, #10c7ff , #289bff , #4662ff );
+    border: 2px solid #a1ce4c !important;
+    border-radius: 0.25rem;
+    transition: box-shadow .15s ease-in-out;
+    padding: 8px 12px;
+    font-size: 10px;
+}
+.navbar-toggler:focus {
+    text-decoration: none;
+    outline: 0;
+    box-shadow: inset 0 0 18px 0rem;
+}
+.scroller{
+    position:relative;
+  }
+  .scroll-top{
+    width: 40px;
+    height: 40px;
+    line-height: 35px;
+    position: fixed;
+    bottom: 33px;
+    right: 35px;
+    z-index: 99;
+    text-align: center;
+    color: #ffff;
+    font-size: 30px;
+    padding: 3px;
+    cursor: pointer;
+    border: none;
+    border-radius: 8px;
+    display: none;
+    transition: all .3s ease-in-out;
+    background: linear-gradient(to right, #10c7ff , #289bff , #4662ff );
+}
+.scroll-line {
+    background: linear-gradient(to right, #10c7ff , #289bff , #4662ff );
+    top: 0;
+    left: 0;
+    height: 4px;
+    position: fixed;
+    transition: 0.5s cubic-bezier(0.075, 0.82, 0.165, 1);
+    z-index: 111;
+    border-radius: 0px 3px 3px 0px;
+}
+
+/*================ sticky header  css start ====================== */
+header.header-area {
+    left: 0;
+    top: 0;
+    width: 100%;
+    z-index: 99;
+	transition:0.7s;
+}
+header.header-area.sticky {
+    background: url(../images/banner_bg.png);
+    background-position: center;
+    background-size: cover;
+    position: fixed; 
+    transition: 0.7s;
+    background-repeat: no-repeat;
+    padding: 10px 0px;
+    z-index: 2222;
+    filter: drop-shadow(2px 4px 6px #464646);
+}
+header.header-area.sticky .nav-link{
+    color:#000;
+}
+header.header-area.sticky .nav_but .but{
+    background: #00a963;
+}
+/******=======  HEADER PART END  =======******/
+
+/*****====HEAD PART START====******/
+
+.logo{
+    max-width: 200px !important; 
+}
+  
+.head{
+
+}
+.head h2{
+    color: #0ec9ff;
+    font-size: 49px;
+    font-weight: 700;
+    font-family: 'Titillium Web', sans-serif;
+    padding: 10px 0px;
+}
+.head h2 span{
+    font-weight: 500;
+    background: linear-gradient(to right, #10c7ff , #289bff , #4662ff );
+    color: transparent;
+    -webkit-background-clip: text;
+}
+.head h3{
+    color: #3a3a3a;
+    font-size: 20px;
+    font-weight: 500;
+    padding: 5px 0px;
+}
+.head h4{
+    color: #0ec9ff;
+    font-size: 46px;
+    font-weight: 400;
+    font-family: 'Titillium Web', sans-serif;
+    padding: 10px 0px;
+}
+.head h4 span{
+    background: linear-gradient(to right, #3c75ff , #2949fa);
+    color: transparent;
+    -webkit-background-clip: text;
+}
+.head h4 small{
+    font-weight: 700;
+    background: linear-gradient(to right, #10c7ff , #289bff , #4662ff );
+    color: transparent;
+    -webkit-background-clip: text;
+    font-size: 44px;
+}
+.head p span{
+    color: #2e8fff;
+}
+.head p{
+    text-align: justify;
+    color: #585858;
+    font-size: 16px;
+    font-weight: 400;
+    padding: 9px 0px
+
+}
+/*****====BANNER PART START====******/
+.banner_bg{
+    background: url(../images/banner_bg.png);   
+    background-position: center;
+    background-size: 100% 100%;
+   
+}
+
+.navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .show>.nav-link {
+    color:#2b93ff !important;
+}
+header.header-area .navbar-nav .nav-item .nav-link {
+    color: #ffffff;
+    font-size: 16px;
+    font-weight: 300;
+    padding: 0px 13px;
+    font-family: 'Manrope', sans-serif;
+}
+.navbar-nav .nav-item .nav-link {
+    color: #ffffff;
+    font-size: 16px;
+    font-weight: 300;
+    padding: 0px 13px;
+    font-family: 'Manrope', sans-serif;
+}
+.navbar-nav .nav-item .nav-link:hover{
+    color:#2b93ff !important;
+
+}
+.top_but{
+    margin: 0px 10px;
+}
+.top_but .but1{
+    margin: 0px 10px;
+}
+.but1{
+    font-size: 16px;
+    font-weight: 500;
+    color: #ffffff !important;
+    padding: 8px 23px;
+    font-family: 'Manrope', sans-serif;
+    background: linear-gradient(to right, #10c7ff , #289bff , #4662ff );
+    transition: all 0.3s ease;
+    border-radius: 5px;
+}
+.but2{
+    font-size: 16px;
+    font-weight: 500;
+    color: #ffffff !important;
+    padding: 8px 23px;
+    background:transparent;
+    transition: all 0.3s ease;
+    border-radius: 5px;
+    border: 1px solid #1370f9;
+    font-family: 'Manrope', sans-serif;
+    
+}
+
+
+/*****====BANNER_BG PART END====******/
+
+.banner_bg .banner_1{
+    padding: 50px 0px 0px;
+}
+.banner_text h3 {
+    color: #2b93ff;
+    font-size: 22px;
+    font-weight: 400;
+    font-family: 'Manrope', sans-serif;
+}
+.banner_text h2 {
+    color: #0ec9ff;
+    font-size: 42px;
+    font-weight: 600;
+    font-family: 'Titillium Web', sans-serif !important;
+    padding: 8px 0px;
+}
+.banner_text h2 small {
+    background: linear-gradient(to right, #10c7ff , #289bff , #4662ff );
+    color: transparent;
+    -webkit-background-clip: text;
+    font-size: 42px;
+    font-weight: 700;
+}
+.banner_text h2 span {
+    display: block;
+    font-size: 40px;
+    font-weight: 400;
+}
+.banner_text p  {
+    padding: 10px 0px;
+    font-size: 16px;
+    font-weight: 300; 
+    color: #fff; 
+    text-align: justify;
+}
+.banner_text p span {
+    color: #2b93ff !important;
+    font-weight: 300; 
+}
+.banner_but{
+    padding: 18px 0px;
+}
+.sec_img{
+    padding: 15px 0px;
+}
+.sec_img .link{
+    color: #7a7777;
+    font-size: 17px;
+    border-bottom: 1px solid;
+    padding: 0px 0px;
+}
+.sec_img ul{
+    
+}
+.sec_img li{
+    display: inline-block;
+    width: 32%;
+    padding: 22px 0px 0px;
+}
+.sec_img li img{
+    width: 100%;
+}
+.banner_img1{
+    max-width: 500px;
+    margin: auto;
+}
+
+.live_crypto{
+    top: 50px;
+    padding: 10px;
+    border-radius: 10px;
+}
+.live_crypto .livecoinwatch-widget-6{
+    max-width: 250px !important;
+    width: 100% !important;
+    box-shadow: 0px 0px 2px #000;
+    margin: 5px auto !important;
+}
+ 
+.live_crypto .owl-dots{
+    display: none !important;
+}
+/*****====BANNER PART END====******/
+
+/*****====ABOUT PART START====******/
+.about_bg{
+    padding: 65px 0px 30px;
+    background: #f5fbff;
+}
+.about_bg .imgage{
+    max-width: 491px;
+    margin: auto;
+}
+.about_bg .imgage img{
+    
+}
+.about_but {
+    padding: 18px 0px;
+}
+/*****====ABOUT PART END====******/
+/*****====PLAN PART START====******/
+.plan_bg{
+   
+}
+.plan_bg .head p{
+    max-width: 890px;
+    margin: auto;
+    text-align: center !important;
+}
+.plan_bg{
+    margin: 10px 0px;
+}
+.plan_bg ul{
+
+}
+.plan_bg ul li{
+    
+}
+
+.plan_text1{
+    background: url(../images/plan_bg.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    padding: 15px;
+    width: 100%;
+    max-width: 356px;
+    margin: 10px auto;
+    transition: 1s;
+    transform: scale(0.8);
+    filter: drop-shadow(0px 3px 2px #bbbbbb);
+}
+.plan_text1 h5{
+    color: #f6fff3;
+    font-size: 18px;
+    font-weight: 400;
+    font-family: 'Manrope', sans-serif;
+    padding: 15x 0px;
+    text-align: center;
+}
+.plan_text1 h3{
+    color: #ffffff;
+    font-family: 'Manrope', sans-serif;
+    font-size: 15px;
+    font-weight: 300;
+    padding: 10px 10px;
+    text-align: center;
+}
+.plan_text1 h2{
+    font-size: 46px;
+    text-align: center;
+    background: #fff;
+    filter: drop-shadow(0px 3px 2px #bbbbbb);
+    padding: 3px 21px;
+    width: fit-content;
+    margin: 25px auto 18px;
+    border-radius: 5px;
+    font-weight: 700;
+}
+
+.plan_text1 h2 span{
+    font-weight: 500;
+    background: linear-gradient(to right, #10c7ff , #289bff , #4662ff );
+    color: transparent;
+    -webkit-background-clip: text;
+}
+.plan_text2{
+    padding: 52px 0px;
+}
+.plan_text2 h4{
+    padding: 8px 0px;
+    color: #585858;
+    top: 8px;
+    font-size: 18px;
+}
+.plan_text2 h4 i{
+    font-size: 15px;
+    color: #fff;
+    background: linear-gradient(to right, #10c7ff , #289bff , #4662ff );
+    border-radius: 30px;
+    position: relative;
+    top: 3px;
+    margin: 0px 8px;
+    padding: 4px 5px;
+}
+.plan_text2 h4 span{
+    float: right;
+    color: #00e2ff;
+    font-size: 18px;
+}
+.plan_but{
+    text-align: center;
+    padding: 13px 0px 21px;
+}
+.plan_but .but1{
+    padding: 12px 25px;
+}
+
+/*****====PLAN PART END====******/
+.back_color{
+    background: #f5fbff;
+}
+/*****====CALCI PART END====******/
+.cal_bg{
+    background: linear-gradient(360deg, #f4fbff 50%, #ffffff 0);
+}
+.cal_bg ul{ 
+    
+}
+.cal_bg li{ 
+    width: 31%;
+    display: inline-block;
+}
+.cal_bg li h2{ 
+    font-size: 16px;
+   color: #65677b;
+    font-weight: 400;
+    padding: 5px 0px;
+    text-align: start;
+}
+.cal_bg li h2 span .opts{ 
+    display: block;
+    font-size: 15px;
+    font-weight: 500;
+    color: #000000 !important;
+    background: #ffffff;
+    border: none;
+    border-radius: 5px;
+    padding: 7px 9px;
+    margin: 10px 0px;
+    filter: drop-shadow(0px 3px 2px #bbbbbb);
+    outline: none;
+}
+.cal_bg li h3{ 
+    font-size: 16px;
+   color: #65677b;
+    font-weight: 400;
+    padding: 5px 0px;
+    text-align: start;
+}
+.cal_bg li h3 input{ 
+    display: block;
+    font-size: 15px;
+    font-weight: 500;
+    color: #000000 !important;
+    background: #ffffff;
+    border: none;
+    border-radius: 5px;
+    padding: 7px 9px;
+    margin: 10px 0px;
+    filter: drop-shadow(0px 3px 2px #bbbbbb);
+    width: 110%;
+    outline: none;
+}
+.cal_bg li h3 span { 
+    display: block;
+    font-size: 15px;
+    font-weight: 500;
+    color: #000000 !important;
+    background: #ffffff;
+    border: none;
+    border-radius: 5px;
+    padding: 7px 9px;
+    margin: 10px 0px;
+    filter: drop-shadow(0px 3px 2px #bbbbbb);
+    width: 100%;
+}
+.cal_bg .calci_text1{
+    background: url(../images/plan_pic.png);
+    background-size: 100% 100%;
+    background-position: center;
+    padding: 7px 0px;
+}
+.cal_bg .calci_text1 h3{
+    color: #000000 !important;
+   
+}
+.cal_bg .calci_text1 h3 span{
+    color: #367eff !important;
+    filter: unset !important;
+}
+.cal_but{
+    margin: 30px 0px;
+    text-align: center;
+}
+.cal_but .but1{
+    background: linear-gradient(to right, #4662ff , #289bff , #10c7ff) !important;
+}
+
+/*****====PLAN PART END====******/
+/*****====PLAN PART END====******/
+.sta_bg{
+    padding: 30px 0px;
+}
+.sta_bg ul{
+    
+}
+.sta_bg li{
+    
+}
+.sta_text{
+    background: #ffffff;
+    border-radius: 5px;
+    max-width: 238px;
+    margin: 20px auto;
+    padding: 10px 0px 13px 10px;
+}
+.sta_text img{
+    float: right;
+    max-width: 43px;
+    background: linear-gradient(to top, #10c7ff , #289bff , #4662ff );
+    border-radius: 30px;
+    padding: 8px 5px;
+    margin: 0px -17px 0px 0px
+}
+.sta_text h3{
+    font-size: 14px;
+    font-family: 'Manrope', sans-serif;
+    color: #121211;
+    font-weight: 400;
+}
+.sta_text h3 span{
+    display: block;
+    font-size: 18px;
+    font-family: 'Manrope', sans-serif;
+    color: #121211;
+    font-weight: 600;
+    padding: 5px 0px;
+}
+/*****====PLAN PART END====******/
+
+/*****====REFEARL PART START====******/
+.ref_bg{
+    padding: 30px 0px;
+}
+.ref_but{
+    padding: 18px 0px;
+}
+.ref_but .but1{
+    background: linear-gradient(to right, #4662ff , #289bff , #10c7ff) !important;
+    color: #000 !important;
+}
+.ref_bg .images{
+  max-width: 300px;  
+  margin: auto;
+  position: relative;
+}
+.ref_bg .images li{
+    background: url(../images/refer_img.png);
+    background-size: 100% 100%;
+    background-position: center;
+    text-align: center;
+    padding: 10px 24px;
+    max-width: 151px;
+    animation: floater-2 infinite 4s ease-in-out;
+    animation-fill-mode: forwards;
+}
+@keyframes floater-2{
+ 0% {
+    transform: translate3d(0px, 0px, 0px);
+}
+50% {
+    transform: translate3d(0px, -10px, 0px);
+}
+100% {
+    transform: translate3d(0px, 0px, 0px);
+}
+}
+.ref_bg .images li:nth-child(1){
+    position: absolute;
+    top: 100px;
+    left: -53px;
+}
+.ref_bg .images li:nth-child(2){
+    position: absolute;
+    top: 51px;
+    right: -79px;
+}
+.ref_bg .images li:nth-child(3){
+    position: absolute;
+    bottom: 0px;
+    right: -79px;
+    padding: 10px 27px;
+}
+.ref_bg .images li h3{
+    color: #ffffff;
+    font-family: 'Manrope', sans-serif;
+    font-size: 61px;
+    font-weight: 700;
+}
+.ref_bg .images li h3 span{
+    font-size: 40px;
+    font-weight: 500;
+}
+.ref_bg .images li h3 small{
+    font-size: 16px;
+    font-weight: 300;
+    display: block;
+}
+
+/*****====ADVANTAGE PART END====******/
+.advan_bg{
+    padding: 40px 0px;
+    background: #fff;
+}
+.advan_bg .head p {
+    max-width: 890px;
+    margin: auto;
+    text-align: center !important;
+}
+.advan_bg .advan_text{ 
+    background-color: #f5fbff;
+    border-radius: 10px;
+    max-width: 300px;
+    margin: 50px auto 0px;
+    padding: 0px 20px 20px;
+    text-align: center;
+}
+.advan_bg .advan_text img{
+    position: relative;
+    top: -50px;
+    margin: 9px auto;
+    max-width: 106px;
+}
+.advan_bg .advan_text h2{
+    font-size: 18px;
+    font-family: 'Titillium Web', sans-serif;
+    color: #121211;
+    font-weight: 700;
+}
+.advan_bg .advan_text p{
+    text-align: justify;
+    color: #585858;
+    font-size: 15px;
+    font-weight: 400;
+    padding: 9px 0px;
+}
+/*****====JOIN PART END====******/
+.join_bg{
+    padding: 40px 0px;
+    background: linear-gradient(to right, #4662ff , #289bff , #10c7ff );
+}
+.join_bg h3{
+    color: #f5fbff; 
+    font-family: 'Manrope', sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    padding: 5px 0px;
+}
+.join_bg h2{
+    color: #f5fbff; 
+    font-family: 'Titillium Web', sans-serif !important;
+    font-size: 38px;
+    font-weight: 500;
+    padding: 2px 0px;
+}
+ .join_bg h2 span{
+    color: #f5fbff; 
+    font-weight: 600;
+}
+.join_but {
+    text-align: center;
+}
+.join_but .but1{
+    background: #0a0a0a !important;
+    padding: 11px 35px !important;
+}
+
+/*****====FOOTER PART START====******/
+.footer_bg{
+    background: url(../images/banner_bg.png);   
+    background-position: center;
+    background-size: 100% 100%;
+    padding: 40px 0px 20px;
+}
+.foot_text{
+
+}
+.foot_text h2{ 
+    color: #f5fbff;
+    font-family: 'Titillium Web', sans-serif !important;
+    font-size: 19px;
+    font-weight: 600;
+    padding: 2px 0px 15px;
+}
+.foot_text h3{
+    padding: 1px 0px
+}
+.foot_text h3 a{
+    color:#cfcfcf;
+    font-family: 'Manrope', sans-serif;
+    font-size: 13px;
+    font-weight: 400;
+}
+.foot_text h3 i{
+    color: #000101;
+    font-size: 12px;
+    background: #cfcfcf;
+    padding: 5px 6px;
+    border-radius: 40px;
+    margin: 0px 7px 0px 0px;
+}
+.foot_text1 h3 i{
+    padding: 3px 3px !important;
+    border-radius: 2px !important;
+    margin: 0px 7px 0px 0px !important;
+}
+.payment .center li img {
+    box-shadow: inset 20px 20px 20px 20px #ffffff;
+    border-radius: 50px;
+    filter: drop-shadow(0px 1px 3px #009ffa);
+}
+.payment .img1 {
+    max-width: 45px;
+    margin: auto;
+}
+
+.payment h3{
+    color: #3188ff;
+    font-size: 17px;
+    padding: 0px 0px 16px;
+}
+.payment  a .img2{
+    max-width: 145px;
+    margin: 0px 5px;
+    filter: drop-shadow(0px 0px 1px #fff);
+}
+.copyright{
+    text-align: center;
+    padding: 35px 0px 0px;
+}
+.copyright h3{
+    color: #ffffff;
+    font-size: 13px;
+    font-weight: 300;
+}
+.copyright h3 span{
+    color: #3188ff;
+    font-size: 15px;
+}
+
+.tras_text{
+    border-top: 40px;
+    left: 40px;
+    
+}
+.tras_text select{
+    padding: 6px 10px;
+    background: #0098fa;
+    border-radius: 5px;
+    color: #fff;
+    outline: none;
+}
+
+/*****====FOOTER PART END====******/
+
+
+/*==========  response CSS START  ========== */
+
+@media only screen and (min-width: 576px)and (max-width:1200px)  {
+    .container{
+        max-width: 95% !IMPORTANT;
+    }
+}
+@media only screen and (max-width: 991px){
+    .navbar-collapse{
+        text-align: center;
+    }
+    .navbar-nav .nav-item .nav-link {
+        padding: 8px 13px;
+    }
+    .head {
+        text-align: center;
+    }
+    .head p{
+        text-align: center !important;
+    }
+    .banner_text p{
+        text-align: center !important;
+    }
+/*==========  BANNER CSS START  ========== */    
+    .banner_img1 {
+        display: none;
+    }
+/*==========  ABOUT CSS START  ========== */  
+    .about_bg .imgage{
+        display: none;
+    }
+/*==========  CALCI CSS START  ========== */
+    .cal_bg {
+        background: linear-gradient(360deg, #f4fbff 74%, #ffffff 0);
+    }
+    .cal_bg li {
+        width: 40%;
+        display: inline-block;
+    }
+/*==========  STATISTICS CSS START  ========== */
+    .sta_text {
+        padding: 10px 0px 10px 10px;
+    }
+/*==========  REFERAL CSS START  ========== */
+    .ref_bg .images{
+        display: none;
+    }
+/*==========  ADVANTAGE CSS START  ========== */    
+    .advan_bg .advan_text {
+        margin: 50px auto 23px;
+    }
+    .foot_text {
+        padding: 17px 0px;
+    }
+  
+    
+}
+@media only screen and (max-width: 769px){
+    .banner_text{
+        text-align: center;
+    }
+/*==========  CALCI CSS START  ========== */       
+    .cal_bg li h3 input {
+        width: 60%;
+    }
+    .cal_bg li h3 span {
+        width: 60%;
+    }
+/*==========  ADVANTAGE CSS START  ========== */   
+    .advan_bg .row{
+        display: none;
+    }
+/*==========  JOIN CSS START  ========== */   
+    .join_text{
+        text-align: center;
+        padding: 0px 0px 14px;
+    }
+    .foot_text {
+        margin: auto;
+        max-width: 156px;
+    }
+ /*==========  JOIN CSS START  ========== */    
+    .payment{
+        text-align: center;
+    }
+}
+   
+@media only screen and (max-width: 576px){
+     /*==========  JOIN CSS START  ========== */   
+    .logo {
+        max-width: 163px !important;
+    }
+    .top_but .but1{
+        margin: 0px;
+    }
+    .but1 {
+        font-size: 14px;
+        padding: 6px 18px;
+    }
+    .but2 {
+        font-size: 14px;
+        padding: 6px 18px;
+    }
+    .head h2{
+        font-size: 28px;
+        padding: 10px 0px 5px;
+    }
+    .head h2 span{
+        font-size: 26px;
+
+    }
+    .head h3 {
+        font-size: 17px;
+        padding: 0px 0px 0px; 
+    }
+    .head p {
+        font-size: 14px;
+        padding: 5px 0px !important;
+    }
+    .head h4 {
+        font-size: 28px;
+    }
+    .head h4 small{
+        font-size: 26px;
+    }
+     /*==========  JOIN CSS START  ========== */   
+    .banner_bg .banner_1 {
+        padding: 25px 0px 0px;
+    }
+    .banner_text h3{
+        font-size: 18px;
+    }
+    .banner_text h2 {
+        font-size: 30px;
+        padding: 3px 0px;
+    }
+    .banner_text h2 small{
+        font-size: 36px;
+    }
+    .banner_text h2 span {
+        font-size: 34px;
+        font-weight: 300;
+    }
+    .banner_text p{
+        font-size: 14px;
+    }
+    .banner_but {
+        padding: 6px 0px 0px;
+    }
+ /*==========  ABOUT CSS START  ========== */
+    .about_bg {
+        padding: 20px 0px;
+        background: #f5fbff;
+    }
+
+ /*==========  PLAN CSS START  ========== */
+    .plan_but {
+        padding: 13px 0px 13px;
+    }
+    .plan_but .but1 {
+        padding: 9px 24px;
+    }
+    .plan_text1 {
+        margin: 0px auto;
+    }
+    .plan_text2 {
+        padding: 14px 0px;
+    }
+    .plan_bg .head p{
+        padding: 0px 0px !important;
+    }
+    .plan_text2 h4 {
+       font-size: 14px;
+    }
+    .plan_text2 h4 span{
+        font-size: 16px;
+    }
+     .plan_text2 h4 i {
+        top: 1px;
+        margin: 0px 2px;
+    }
+  /*==========  CALCI CSS START  ========== */   
+    .cal_bg li{
+        width: 49%;
+    }
+    .cal_bg li h2{
+        font-size: 14px;
+    }
+    .cal_bg li h2 span .opts {
+        font-size: 12px;
+    }
+    .cal_bg li h3{
+        font-size: 14px;
+        text-align: center;
+    }
+    .cal_bg li h3 input {
+        width: 100%;
+        font-size: 12px;
+    }
+    .cal_bg li h3 span {
+        width: 95%;
+        font-size: 12px;
+        text-align: start;
+        margin: 6px auto;
+    }
+    .cal_but {
+        margin: 14px auto;
+    }
+ /*==========  SAT CSS START  ========== */
+    .sta_bg {
+        padding: 10px 0px;
+    }
+    .sta_text {
+        padding: 5px 10px 5px 10px;
+        margin: 10px auto;
+    }
+    .sta_text img{
+        margin: 0px;
+    }
+    .sta_text img{
+        font-size: 17px;
+    }
+
+    .ref_bg {
+        padding: 10px 0px;
+    }
+ /*==========  ADVANt CSS START  ========== */    
+    .advan_bg {
+        padding: 0px 0px;
+    }
+    .advan_bg .advan_text {
+        margin: 50px auto 0px;
+        padding: 0px 19px 0px;
+    }
+    .advan_bg .advan_text img {
+        top: -35px;
+        margin: 0px auto;
+        max-width: 79px;
+    }
+    .advan_bg .advan_text h2{
+        font-size: 16px;
+    }
+    .advan_bg .advan_text p{
+        font-size: 14px;
+    }
+    .join_bg{
+        padding: 20px 0px;
+    }
+    .join_bg h2 {
+        font-size: 22px;
+    }
+    .join_bg h2 span {
+        font-size: 20px;
+    }
+ /*==========  PAYMENT CSS START  ========== */
+    .payment a .img2 {
+        max-width: 111px;
+    }  
+    .payment h3 {
+        font-size: 15px;
+        padding: 0px 0px 13px;
+    }
+ /*==========  FOOTER CSS START  ========== */
+    .footer_bg {
+        padding: 20px 0px 20px;
+    }
+    .foot_text h3 a {
+        font-size: 11px;
+    }
+    .foot_text h3 {
+        padding: 1px 0px;
+        line-height: 15px;
+    }
+    .footer_bg .pass{
+        display: none;
+    }
+    .foot_text h2 {
+        font-size: 15px;
+        padding: 2px 0px 10px;
+    }
+    .copyright {
+        padding: 1px 0px 0px;
+    }
+    .copyright h3{
+        font-size: 11px;
+    }
+    .copyright h3 span{
+        font-size: 12px;
+    }
+    .live_crypto{
+        top: 10px;
+    }
+  
+}
+   
+    

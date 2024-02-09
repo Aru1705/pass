@@ -1,0 +1,753 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PASS Investment Manageres</title>
+
+
+<!----- FAVICON------>
+ <link rel="shortcut icon" type="img/png" href="images/favicon.png" >
+
+ <!----BOOTSTRAP 5------>
+ <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity=     "sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+ <!----BOOTSTRAP 5 ICON------>
+ <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.3/font/bootstrap-icons.css">
+ <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+ <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">
+ <link rel="stylesheet"  href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+ <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.1/css/all.css" integrity="sha384-gfdkjb5BdAXd+lj+gudLWI+BXq4IuLW5IT+brZEZsLFm++aCMlF1V92rMkPaX4PP" crossorigin="anonymous">
+
+
+ <!----CSS------>
+<link rel="stylesheet" href="css/style.css">
+ <link rel="stylesheet" href="css/hover.css">
+ <link rel="stylesheet" href="css/jquery.fancybox.min.css">
+ <link rel="stylesheet" href="css/owl.carousel.min.css">
+ <link rel="stylesheet" href="css/owl.theme.default.min.css">
+
+
+ <!----JS------>
+
+ <script src="js/jquery.min.js"></script>
+ <script src="js/owl.carousel.js"></script> 
+ <script src="js/owl.carousel.min.js"></script> 
+ <script src="js/jquery.fancybox.min.js"></script> 
+ <script src="js/calculator.js"></script>
+
+
+ <!----font------>
+ <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@200;300;400;500;600;700;800&display=swap" rel="stylesheet">
+ <link href="https://fonts.googleapis.com/css2?family=Titillium+Web:wght@200;300;400;600;700;900&display=swap" rel="stylesheet">
+ 
+</head>
+<body>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    
+    <!--====== SCROLLER ======-->
+    <button class="scroll-top ">
+        <i class="ri-arrow-up-s-line "></i>
+    </button>
+    
+    <!-- Theme js -->
+    <script src="js/theme.js"></script>
+    
+    <div class="scroll-line"></div>
+
+    <script>
+        const scrollline = document.querySelector('.scroll-line');
+    
+          function fillscrollline(){
+            const windowHeight = window.innerHeight;
+            const fullHeight = document.body.clientHeight;
+            const scrolled = window.scrollY;
+            const percentScrolled = (scrolled / (fullHeight - windowHeight)) * 100;
+    
+            scrollline.style.width = percentScrolled + '%';
+          };
+    
+          window.addEventListener('scroll', fillscrollline);
+    </script>
+<!-----=====  BANNER PART START  ======------>
+<div class="banner_bg">
+        <!-----=====  HEADER PART START  ======------>
+    <header class="header-area">
+        <div class="container">
+        <nav class="navbar navbar-expand-lg navbar-light ">
+            <div class="container-fluid">
+              <a class="navbar-brand" href="#"><img src="images/logo.png" alt="" class="img-fluid logo hvr-wobble-vertical"></a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav mx-auto mb-2 mb-lg-0">
+                  <li class="nav-item">
+                    <a class="nav-link active hvr-underline-from-left" aria-current="page" href="?a=home">Home</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link hvr-underline-from-left" href="?a=aboutus">About</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link hvr-underline-from-left" href="?a=faq">FAQ</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link hvr-underline-from-left" href="?a=faq">Security </a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link hvr-underline-from-left" href="?a=support">Contact</a>
+                  </li>
+                                   
+                </ul>
+              <div class="top_but">
+                <a href="?a=signup" class="but1 hvr-bounce-to-right" > Sign up</a>
+                <a href="?a=login" class="but2 hvr-bounce-to-left"> Sign in</a>
+            </div>
+            </div>
+            </div>
+          </nav>
+        </div>
+    </header>
+    <!-----=====  HEADER PART START  ======------>
+    <div class="container">
+        <div class="banner_1">
+            <div class="row">
+                <div class="col-lg-6 col-md-12">
+                    <div class="banner_text">
+                        <h3>Crypto Investment </h3>
+                        <h2>PASS Crypto <small>Exchange</small>
+                            <span>Protection</span></h2>
+                        <p><span>Pass investment managers </span>Traditional banks, financial institutions, investment or insurance companies and other organizations offer crypto custody services to safeguard their customers' cryptocurrency assets. There are two types of crypto wallets for securely storing crypto assets:</p>
+                        <div class="banner_but">
+                            <a href="?a=home" class="but1 hvr-sweep-to-right"> Get Started </a>
+                        </div>
+                        <div class="sec_img">
+                            <a href="?a=home" class="link"> Known From:</a>
+                            <ul>
+                                <li>
+                                    <img src="images/sec_img1.png" alt="">
+                                </li>
+                                <li>
+                                    <img src="images/sec_img2.png" alt="">
+                                </li>
+                                <li>
+                                    <img src="images/sec_img3.png" alt="">
+                                </li>
+                            </ul>
+                        </div>
+                       
+                    </div>
+                    
+                </div>
+                <div class="col-lg-6">
+                    <div class="banner_image">
+                        <div class="banner_img1">
+                            <img src="images/home_img1.png" alt="" class="img-fluid img1">
+                        </div>
+                        
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="live_crypto  live_carousel owl-carousel "> 
+            <div> 
+                <script defer src="https://www.livecoinwatch.com/static/lcw-widget.js"></script> <div class="livecoinwatch-widget-6" lcw-coin="BTC" lcw-base="USD" lcw-period="d" lcw-color-tx="#000" lcw-color-bg="#fff" lcw-border-w="0" ></div>
+            </div>
+            <div>
+                <script defer src="https://www.livecoinwatch.com/static/lcw-widget.js"></script> <div class="livecoinwatch-widget-6" lcw-coin="LTC" lcw-base="USD" lcw-period="d" lcw-color-tx="#000" lcw-color-bg="#fff" lcw-border-w="0" ></div>
+            </div>
+            <div> 
+                <script defer src="https://www.livecoinwatch.com/static/lcw-widget.js"></script> <div class="livecoinwatch-widget-6" lcw-coin="ETH" lcw-base="USD" lcw-period="d" lcw-color-tx="#000" lcw-color-bg="#fff" lcw-border-w="0" ></div>
+            </div>
+            <div>
+                <script defer src="https://www.livecoinwatch.com/static/lcw-widget.js"></script> <div class="livecoinwatch-widget-6" lcw-coin="BNB" lcw-base="USD" lcw-period="d" lcw-color-tx="#000" lcw-color-bg="#fff" lcw-border-w="1" ></div>
+            </div>
+            <div>
+                <script defer src="https://www.livecoinwatch.com/static/lcw-widget.js"></script> <div class="livecoinwatch-widget-6" lcw-coin="TRX" lcw-base="USD" lcw-period="d" lcw-color-tx="#000" lcw-color-bg="#fff" lcw-border-w="0" ></div>
+            </div>
+            <div> 
+                <script defer src="https://www.livecoinwatch.com/static/lcw-widget.js"></script> <div class="livecoinwatch-widget-6" lcw-coin="XLM" lcw-base="USD" lcw-period="d" lcw-color-tx="#000" lcw-color-bg="#fff" lcw-border-w="0" ></div>
+            </div>
+        </div>
+    </div>
+
+
+</div>
+<!-----=====  BANNER PART END  ======------>
+
+
+<!-----=====  ABOUT PART START  ======------>
+<div class="about_bg">
+    <div class="container">
+            <div class="row">
+                <div class="col-lg-6 col-md-12">
+                    <div class="imgage">
+                        <img src="images/about_img.png" alt="" class="img-fluid">
+                    </div>
+                </div>
+                <div class="col-lg-6 col-md-12">
+                    <div class="about_text">
+                        <div class="head">
+                            <h2>About <span>Company</span></h2>
+                            <h3>Briefly About PASS Investment Manager </h3>
+                            <p><span>Crypto trading in 2023 has transformed from a novelty into a mainstream financial endeavor.Over the years, countless individuals have navigated the turbulent crypto markets, experiencing both success and failure.
+                            </span></p>
+                            <p>By 2023, trading in cryptocurrency has become a common pursuit, no longer the exclusive domain of tech enthusiasts. Over a span of more than a decade, this dynamic space has seen numerous investors experience peaks and troughs in their crypto ventures.</p>
+                            <p>Smartbitbulls stands out in its comprehensive understanding of the complexities of trading on cryptocurrency exchanges. Leveraging advanced artificial intelligence to analyze market data, we assure a profitable outcome with a high level of precision.</p>
+                            <div class="about_but">
+                                <a href="?a=home" class="but1 hvr-sweep-to-right"> Read More </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+    </div>
+  </div>
+
+<!-----=====  ABOUT PART END  ======------>
+
+<!-----=====  PLAN PART START  ======------>
+<div class="plan_bg">
+    <div class="container">
+        <div class="head text-center">
+           <h4>PASS  <small>Investment</small> <span>Paln</span> </h4>
+            <p>Our focus is on advising clients to preserve, manage and grow their wealth & legacy. 
+                We have the best team of product experts across asset classes</p>
+        </div>
+        <div class="plan_sec">
+            <ul class="plan_carousel owl-carousel">
+                <li>
+                    <div class="plan_text1">
+                        <h5>Silver Plan</h5>
+                        <h3>Daily For 15 Days</h3>
+                        <h2>25 <span>%</span></h2>
+                        <div class="plan_text2">
+                            <img src="images/plan_img.png" alt="" class="img-fluid img1">
+                            <h4><i class="fa-solid fa-check"></i> Min Deposit : <span>$100</span></h4>
+                            <h4><i class="fa-solid fa-check"></i> Max Deposit : <span>$4200</span></h4>
+                            <h4><i class="fa-solid fa-check"></i> <span>Principal</span>Included</h4>
+                        </div>
+                        <div class="plan_but">
+                            <a href="" class="but1 hvr-sweep-to-right" >Invest Now</a>
+                       </div>
+                    </div>
+                </li>
+            </ul>
+
+        </div>
+    </div>
+</div>
+
+<!-----=====  PLAN PART END  ======------>
+<div class="back_color">
+
+
+<!-----=====  CALCI PART START  ======------>
+<div class="cal_bg">
+    <div class="container">
+        <div class="row align-item-center">
+            <div class="col-lg-5 col-md-6">
+                <ul class="d-block d-lg-flex align-items-center justify-content-evenly text-center">
+                    <li>
+                        <h2>Select Your Plan
+                           <span>
+                              <select id="Ultra" class="opts">
+                             <option value="1" class="opts">Silver Plan </option>
+                             <option value="2" class="opts">Gold Plan </option>
+                             <option value="3" class="opts">Diamond Plan </option>
+                         </select>
+                        </span>
+                    </h2>
+                    </li>
+                    <li>
+                        <h3>Enter Amount <input id="money" value="30" ></span>
+                       </h3>
+                    </li>
+                    
+                 </ul>
+            </div>
+            <div class="col-lg-5 col-md-6">
+                <ul class="d-block d-lg-flex align-items-center justify-content-evenly text-center calci_text1">
+                    <li>
+                        <h3>Daily Profit
+                            <span id="profitDaily" value="100" class="cl1">100 </span>
+                       </h2>
+                    </li>
+                    <li>
+                        <h3>Total Profit
+                            <span id="profitTotal" value="100" class="cl1">100 </span>
+                       </h3>
+                    </li>
+                    
+                 </ul>
+            </div>
+            <div class="col-lg-2">
+                <div class="cal_but">
+                    <a href="" class="but1 hvr-bounce-to-right">Invest Now</a>
+               </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-----=====  CALCI PART END  ======------>
+
+<!-----=====  STATISTICS PART END  ======------>
+<div class="sta_bg">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-4 col-md-4 col-sm-6">
+                <div class="sta_text">
+                    <img src="images/sta_img1.png" alt="" class="img-fluid">
+                    <h3>start date <span>$4256826</span></h3>
+                </div>
+                <div class="sta_text ">
+                    <img src="images/sta_img2.png" alt="" class="img-fluid">
+                    <h3>Total withdraw <span>$4256826</span></h3>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-4 col-sm-6">
+                <div class="sta_text">
+                    <img src="images/sta_img5.png" alt="" class="img-fluid">
+                    <h3>start date <span>222</span></h3>
+                </div>
+                <div class="sta_text">
+                    <img src="images/sta_img3.png" alt="" class="img-fluid">
+                    <h3>Active  Account  <span>222</span></h3>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-4">
+                <div class="sta_text">
+                    <img src="images/sta_img6.png" alt="" class="img-fluid">
+                    <h3>Visitors Online <span>222</span></h3>
+                </div>
+                <div class="sta_text">
+                    <img src="images/sta_img4.png" alt="" class="img-fluid">
+                    <h3>Total Account<span>222</span></h3>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="ref_bg">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-6 col-md-12">
+                <div class="ref_text">
+                    <div class="head">
+                        <h2>Affiliate   <span>Program</span></h2>
+                        <p>With the help of an affiliate program, you can earn additional passive income by advertising the project using your referral link.
+                            We have 3 referral lines (lvls) available for participate. To receive affiliate income, you should have an active deposit which you can close anytime.
+                             </p>
+                        <div class="ref_but">
+                            <a href="" class="but1 hvr-sweep-to-right">Join Now</a>
+                       </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-6 col-md-6">
+                <div class="images">
+                    <img src="images/ref_bg.png" alt="" class="img-fluid">
+                    <ul>
+                        <li><h3>5 <span>%</span><small>Leavl 1</small></h3></li>
+                        <li><h3>3 <span>%</span><small>Leavl 2</small></h3></li>
+                        <li><h3>1 <span>%</span><small>Leavl 3</small></h3></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-----=====  STATISTICS PART END  ======------>
+
+<!-----=====  ADVANTAGE PART START  ======------>
+<div class="advan_bg">
+    <div class="container">
+        <div class="head text-center">
+            <h4>Introduce our <small>advantages </small></h4>
+             <p> Advantages of Self Introduction​ This improves their social abilities by enabling them to interact with new individuals. You tell the audience</p>
+         </div>
+         <div class="row">
+            <div class="col-lg-3 col-md-6 col-sm-12 col-xs-12">  
+                <div class="advan_text"> 
+                    <img src="images/adv_1.png" alt="" class="img-fluid">
+                    <h2>Instant Withdrawals</h2>
+                    <p>Our investment offer provides instant withdrawals for all currencies. In 1-2 minutes after ordering the withdrawal, you can check the txid of the transaction.</p>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-6 col-sm-12 col-xs-12">  
+                <div class="advan_text"> 
+                    <img src="images/adv_2.png" alt="" class="img-fluid">
+                    <h2>Truly stable income</h2>
+                    <p>We offer a balanced and stable investment proposal system. The key to stability is a business day system of income accruals. Ordering the instant withdrawal </p>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-6 col-sm-12 col-xs-12">
+                <div class="advan_text"> 
+                <img src="images/adv_3.png" alt="" class="img-fluid">
+                <h2>Investment autonomy</h2>
+                <p>Unique investment option - deposit return at any time instantly for fee. After the release request, the deposit will transfered to the balance with next </p>
+            </div>
+           </div>
+            <div class="col-lg-3 col-md-6 col-sm-12 col-xs-12">  
+                <div class="advan_text"> 
+                    <img src="images/adv_4.png" alt="" class="img-fluid">
+                    <h2>Customer Support</h2>
+                    <p>Our investment offer provides instant withdrawals for all currencies. In 1-2 minutes after ordering the withdrawal, you can check the txid of the transaction.</p>
+                </div>
+            </div>     
+        </div>
+
+        <ul class="advan_carousel owl-carousel d-lg-none d-md-none">
+            <li>
+                <div class="advan_text"> 
+                    <img src="images/adv_1.png" alt="" class="img-fluid">
+                    <h2>Instant Withdrawals</h2>
+                    <p>Our investment offer provides instant withdrawals for all currencies. In 1-2 minutes after ordering the withdrawal, you can check the txid of the transaction.</p>
+                </div>
+            </li>
+            <li>
+                <div class="advan_text"> 
+                    <img src="images/adv_2.png" alt="" class="img-fluid">
+                    <h2>Truly stable income</h2>
+                    <p>We offer a balanced and stable investment proposal system. The key to stability is a business day system of income accruals. Ordering the instant withdrawal </p>
+                </div>
+            </li>
+            <li>
+                <div class="advan_text"> 
+                    <img src="images/adv_3.png" alt="" class="img-fluid">
+                    <h2>Investment autonomy</h2>
+                    <p>Unique investment option - deposit return at any time instantly for fee. After the release request, the deposit will transfered to the balance with next </p>
+                </div>
+            </li>
+            <li>
+                <div class="advan_text"> 
+                    <img src="images/adv_4.png" alt="" class="img-fluid">
+                    <h2>Customer Support</h2>
+                    <p>Our investment offer provides instant withdrawals for all currencies. In 1-2 minutes after ordering the withdrawal, you can check the txid of the transaction.</p>
+                </div>
+            </li>
+        </ul>
+
+
+    </div>
+</div>
+<!-----=====  ADVANTAGE PART END  ======------>
+</div>
+<!-----=====  JOIN PART START  ======------>
+<div class="join_bg">
+    <div class="container">
+        <div class="row  align-items-center">
+            <div class="col-lg-6 col-md-8">
+                <div class="join_text">
+                    <h3>Join Us </h3>
+                    <h2><span>PASS</span> Investment Managers</h2>
+                    <h2>And <span>Start Mining Crypto Today!</span></h2>
+                </div>
+            </div>
+            <div class="col-lg-6 col-md-4">
+                <div class="join_but">
+                    <a href="" class="but1 hvr-shutter-out-horizontal">Open An Account</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-----=====  JOIN PART END  ======------>
+
+<!-----=====  FOOTER PART END  ======------>
+<div class="footer_bg">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-4 col-md-12">
+                <div class="payment">
+                    <h3>Accepted Payment Methods:</h3>
+                  <ul class="pay_carousel owl-carousel">
+                    <li><img src="images/pay1.png" alt="" class="img-fluid img1"></li>
+                    <li><img src="images/pay2.png" alt="" class="img-fluid img1"></li>
+                    <li><img src="images/pay3.png" alt="" class="img-fluid img1"></li>
+                    <li><img src="images/pay4.png" alt="" class="img-fluid img1"></li>
+                    <li><img src="images/pay5.png" alt="" class="img-fluid img1"></li>
+                    <li><img src="images/pay6.png" alt="" class="img-fluid img1"></li>
+                    <li><img src="images/pay7.png" alt="" class="img-fluid img1"></li>
+                    <li><img src="images/pay8.png" alt="" class="img-fluid img1"></li>
+                </ul>
+                </div>
+                <div class="payment">
+                    <h3>Download App</h3>
+                    <a href=""><img src="images/playstore-1.png" alt="" class="img-fluid img2"></a>
+                    <a href=""><img src="images/playstore-2.png" alt="" class="img-fluid img2"></a>
+                </div>
+            </div>
+            <div class="col-lg-8 col-md-12">
+                <div class="row d-lg-none d-md-none d-sm-none">
+                    <div class="col-lg-4 col-md-4 col-sm-6 col-7">
+                        <div class="foot_text">
+                            <h2>PASS</h2>
+                            <h3><a href="" class=""><i class="fa-solid fa-location-dot"></i><span>7a Canalside Square,  <br>London, England, N1 7FJ</span></a></h3>
+                            <h3><a href="" class=""><i class="fa-solid fa-envelope"></i><span>hello@minelab.bz</span></a></h3>
+                            <h3><a href="" class=""><i class="fa-solid fa-phone"></i><span>+44 2045 77 40 48</span></a></h3>
+                        </div>
+                    </div>
+                    <div class="col-lg-2 col-md-2 col-sm-6 col-5">
+                        <div class="foot_text foot_text1">
+                            <h2>Social</h2>
+                            <h3><a href="" class="" target="_blank"><i class="fa-brands fa-x-twitter"></i><span>Twitter</span></a></h3>
+                            <h3><a href="" class=""><i class="fa-brands fa-facebook"></i><span>Facebook</span></a></h3>
+                            <h3><a href="" class=""><i class="fa-brands fa-telegram"></i><span>Telegram</span></a></h3>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="col-lg-4 col-md-4 col-sm-6 pass">
+                        <div class="foot_text">
+                            <h2>PASS</h2>
+                            <h3><a href="" class=""><i class="fa-solid fa-location-dot"></i><span>7a Canalside Square,  <br>London, England, N1 7FJ</span></a></h3>
+                            <h3><a href="" class=""><i class="fa-solid fa-envelope"></i><span>hello@minelab.bz</span></a></h3>
+                            <h3><a href="" class=""><i class="fa-solid fa-phone"></i><span>+44 2045 77 40 48</span></a></h3>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-3 col-sm-6 col-6">
+                        <div class="foot_text">
+                            <h2>Legal</h2>
+                            <h3><a href="">Terms</a></h3>
+                            <h3><a href="">Privacy Policy</a></h3>
+                            <h3><a href="">Cookie Policy</a> </h3>
+                            <h3><a href="">Verify Company</a> </h3>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-3 col-sm-6 col-6">
+                        <div class="foot_text">
+                            <h2>Support</h2>
+                            <h3><a href="">Payment Proof</a></h3>
+                            <h3><a href="">Cloud Mining </a> </h3>
+                            <h3><a href="">FAQ</a> </h3>
+                            <h3><a href="">Contact us </a> </h3>
+                            <h3><a href="">Buy Bitcoins </a> </h3>
+                            
+                        </div>
+                    </div>
+                    <div class="col-lg-2 col-md-2 col-sm-6 pass">
+                        <div class="foot_text foot_text1">
+                            <h2>Social</h2>
+                            <h3><a href="" class=""><i class="fa-brands fa-x-twitter"></i><span>Twitter</span></a></h3>
+                            <h3><a href="" class=""><i class="fa-brands fa-facebook"></i><span>Facebook</span></a></h3>
+                            <h3><a href="" class=""><i class="fa-brands fa-telegram"></i><span>Telegram</span></a></h3>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="copyright">
+            <h3>Copyright 2023 by <span> Pass </span> Investment Managers. All rights Reserved</h3>
+        </div>
+    </div>
+</div>
+
+<!-- <div class="tras_text">
+    <div id="google_translate_element"> 
+        <select onchange="doGTranslate(this);" class="selectpicker">
+            <option value="">English</option>
+        </select>
+    </div>
+</div> -->
+<!-----=====  FOOTER PART END  ======------>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<script src="js/jquery.min.js"></script>
+<script src="js/owl.carousel.js"></script> 
+<script src="js/owl.carousel.min.js"></script>
+
+<!-----=====  plan_carousel PART END  ======------>
+<script>
+    $(document).ready(function(){
+      $('.plan_carousel').owlCarousel({
+        loop:true,
+        margin:0,
+        autoplay:true,
+        center:true,
+        autoplayTimeout:4000,
+        autoplayHoverPause:true,
+        nav:false,
+        dots:false,
+        responsive:{
+            0:{
+                items:1
+            },
+            320:{
+                items:1
+            },
+            480:{
+                items:1
+            },
+            600:{
+                items:1
+            },
+            767:{
+                items:1
+            },
+            991:{
+                items:3
+            },
+            1200:{
+                items:3
+            }
+        }
+    });
+    });	
+</script>
+<!-----=====  live_carousel PART END  ======------>
+<script>
+    $(document).ready(function(){
+      $('.live_carousel').owlCarousel({
+        loop:true,
+        margin:0,
+        autoplay:true,  
+        autoplayTimeout:4000,
+        autoplayHoverPause:true,
+        nav:false,
+        dots:true,
+        responsive:{
+            0:{
+                items:1
+            },
+            320:{
+                items:1
+            },
+            480:{
+                items:1
+            },
+            600:{
+                items:2
+            },
+            767:{
+                items:2
+            },
+            991:{
+                items:3
+            },
+            1200:{
+                items:4
+            }
+        }
+    });
+    });	
+</script>
+<!-----=====  live_carousel PART END  ======------>
+<script>
+    $(document).ready(function(){
+      $('.pay_carousel').owlCarousel({
+        loop:true,
+        margin:0,
+        autoplay:true,
+        center:true,  
+        autoplayTimeout:4000,
+        autoplayHoverPause:true,
+        nav:false,
+        dots:true,
+        responsive:{
+            0:{
+                items:1
+            },
+            320:{
+                items:1
+            },
+            480:{
+                items:1
+            },
+            600:{
+                items:5
+            },
+            767:{
+                items:3
+            },
+            991:{
+                items:3
+            },
+            1200:{
+                items:5
+            }
+        }
+    });
+    });	
+</script>
+
+<!-----=====  advan_carousel PART END  ======------>
+<script>
+    $(document).ready(function(){
+      $('.advan_carousel').owlCarousel({
+        loop:true,
+        margin:0,
+        autoplay:true,
+        center:true,  
+        autoplayTimeout:4000,
+        autoplayHoverPause:true,
+        nav:false,
+        dots:true,
+        responsive:{
+            0:{
+                items:1
+            },
+            320:{
+                items:1
+            },
+            480:{
+                items:1
+            },
+            600:{
+                items:1
+            },
+            767:{
+                items:1
+            },
+            991:{
+                items:3
+            },
+            1200:{
+                items:4
+            }
+        }
+    });
+    });	
+</script>
+
+
+
+<script>
+    (function ($) {
+    "use strict";
+      	$(window).on('scroll',function(){
+    	    if($(this).scrollTop() > 100){
+    	    	$('header').addClass('sticky');
+    		}
+    		else{
+    		   $('header').removeClass('sticky');
+    		}
+    	});
+    	$(document).on('click', '.navbar-collapse.in', function (e) {
+            if ($(e.target).is('a') && $(e.target).attr('class') != 'dropdown-toggle') {
+                $(this).collapse('hide');
+            }
+        });
+       
+    })(jQuery);
+</script>
+
+</body>
+</html>
